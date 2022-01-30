@@ -1,6 +1,7 @@
 body {
     background-color: rgb(31, 29, 29);
     margin: 0;
+    color: white;
 }
 
 #conteiner {
@@ -43,8 +44,112 @@ img {
     height: 30px;
 }
 
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 150px;
+    width: 240px;
+    margin-left: 138px;
+
+}
+
 .fb {
-    width: 250px;
-    height: 155px;
+    border-radius: 50%;
+    border: tomato 2px solid;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.tw {
+    border-radius: 50%;
+    border: tomato 2px solid;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.is {
+    border-radius: 50%;
+    border: tomato 2px solid;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.p {
+    border-radius: 50%;
+    border: tomato 2px solid;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.be {
+    border-radius: 50%;
+    border: tomato 2px solid;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-left: 138px;
+    font-size: 50px;
+}
+
+p {
+    margin-left: 138px;
+    font-size: 20px;
+}
+
+.left {
     float: left;
+}
+
+.right {
+    float: left;
+}
+
+.right img {
+    width: 400px;
+    height: 500px;
+    margin-top: 146px;
+    margin-left: 120px;
+}
+
+input {
+    margin-left: 138px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(31, 29, 29);
+    border: tomato 1px solid;
+
+}
+
+.przyciski {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.yt {
+    width: 100px;
+    height: 42px;
+    color: tomato;
+    font-size: 45px;
+
 }
