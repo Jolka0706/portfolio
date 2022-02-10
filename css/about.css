@@ -217,20 +217,20 @@ a:hover{
     flex-direction: row;
     justify-content: center;
     width: 1200px;
-    height: 780px;
     flex-wrap: wrap;
     margin: auto;
 }
 
 .box{
     width: 29%;
-    height: 350px;
+    height: 300px;
     background-color: #1f2235;
     margin:20px;
     display: flex;
     flex-direction: column;
     color: #ffffff;
     margin-left: 10px;
+    padding-top: 20px;
 }
 .element1{
     color: rgb(255, 67, 67);
