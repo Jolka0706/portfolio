@@ -1,9 +1,10 @@
-body{
+body {
     background-color: #23263a;
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
-.menu{
+
+.menu {
     background-color: #1f2235;
     width: 100%;
     height: 100px;
@@ -17,9 +18,10 @@ body{
     z-index: 100;
     display: flex;
     justify-content: space-around;
-    align-content: center;  
+    align-content: center;
 }
-ol{
+
+ol {
     color: white;
     list-style-type: none;
     line-height: 200%;
@@ -27,9 +29,10 @@ ol{
     padding: 5px 0px 5px 0px;
     display: block;
     float: right;
-    text-align: center;  
+    text-align: center;
 }
-ol>li{
+
+ol>li {
     float: left;
     width: 150px;
     height: 40px;
@@ -38,8 +41,9 @@ ol>li{
     font-weight: bold;
     margin-top: 25px;
 }
-#logo{
-  
+
+#logo {
+
     width: 110px;
     display: flex;
     justify-content: center;
@@ -49,13 +53,14 @@ ol>li{
     margin-top: 30px;
 }
 
-.aboutme{
+.aboutme {
     width: 100%;
-    height:150px;
+    height: 150px;
     color: #fff;
     text-align: center;
 }
-#line1{
+
+.line1 {
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -63,11 +68,13 @@ ol>li{
     margin-top: 90px;
     margin-bottom: 30px;
 }
-#line2{
+
+.line2 {
     font-size: 20px;
     line-height: 30px;
 }
-#border{
+
+.border {
 
     width: 70px;
     height: 2px;
@@ -75,12 +82,14 @@ ol>li{
     margin-left: auto;
     margin-right: auto;
 }
-.photo{
+
+.photo {
     float: left;
     margin-left: 410px;
     margin-top: 40px;
 }
-.details{
+
+.details {
     float: left;
     margin-top: 150px;
     margin-left: 130px;
@@ -88,20 +97,162 @@ ol>li{
     line-height: 27px;
     font-size: 18px;
 }
-#hi{
+
+#hi {
     color: white;
     font-weight: bold;
     font-size: 28px;
-    
+
 }
-.down1{
-float: left;
+
+.down1 {
+    float: left;
 }
-.down2{
+
+.down2 {
     float: left;
     margin-left: 200px;
 }
-.red{
+
+.red {
     color: rgb(255, 67, 67);
     font-weight: bold;
+}
+
+.middle {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.top-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logom {
+    width: 200px;
+}
+#text{
+    margin-top: 70px;
+}
+#ikony{
+    margin-top: 70px;
+}
+#colorfooter{
+    color: rgb(255, 67, 67);
+}
+#footer{
+    font-size: 16px;
+    width: 100%;
+    background-color: #1f2235;
+    height: 80px;
+    text-align: center
+}
+#footertext{
+    margin-top: 32px;
+
+}
+#ikony{
+    font-size: 25px;
+    margin-bottom: 100px;
+    display: flex;
+}
+a{
+    margin-left: 40px;
+    background-color: #1f2235;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+    
+}
+a:link{
+    color: #fff;
+    text-decoration: none;
+}
+a:visited{
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+}
+.servicesmain{
+    color: rgb(255, 67, 67);
+    font-size: 13px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 100%;
+    height: 300px;
+
+}
+.services{
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+}
+.line1a{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.bigbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1200px;
+    height: 780px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.box{
+    width: 29%;
+    height: 350px;
+    background-color: #1f2235;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.element1{
+    color: rgb(255, 67, 67);
+
+}
+.element2{
+    margin-left: 45px;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.element3{
+    margin-left: 45px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 25px;
+
+    
+}
+.redicone{
+    font-size: 45px;
+    margin-top: 30px;
+   
+    color: rgb(255, 67, 67);
 }
