@@ -87,8 +87,8 @@ ol>li {
     float: left;
     margin-left: 410px;
     margin-top: 40px;
-    animation-delay: 0.2s;
-    animation-name: fadeInLeft;
+    transition: transform 3s;
+
 }
 
 .details {
@@ -170,6 +170,7 @@ ol>li {
     font-size: 25px;
     margin-bottom: 100px;
     display: flex;
+    
 }
 a{
     margin-left: 40px;
@@ -193,6 +194,9 @@ a:visited{
 .ikonystopka:hover{
     color: #fff;
     background-color: #ff4a57;
+}
+.ikonystopka{
+    transition: background-color 0.5s;
 }
 .servicesmain{
     color: #ff4a57;
@@ -267,6 +271,10 @@ a:visited{
     border: 0;
 }
 
+.znacznik1{
+    transition: color 0.3s;
+}
+
 .znacznik1:hover{
     color: #ff4a57; 
     cursor: pointer;
@@ -274,8 +282,16 @@ a:visited{
 }
 .box:hover{
     background-color: #ff4a57;
+    /* transition: transform 1000 linear; */
+}
+.redicone{
+    transition: color 1s linear;
+    transition: transform 1s ease-in-out;
+    /* transition: transform 1s linear; */
 }
 
 .box:hover .redicone {
     color: white;
+    transform: rotateY(360deg);
+    /* transform: translateX(100px); */
 }
