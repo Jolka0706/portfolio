@@ -78,7 +78,7 @@ ol>li {
 
     width: 70px;
     height: 2px;
-    border-bottom: red solid 3px;
+    border-bottom: #ff4a57 solid 3px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -87,6 +87,8 @@ ol>li {
     float: left;
     margin-left: 410px;
     margin-top: 40px;
+    animation-delay: 0.2s;
+    animation-name: fadeInLeft;
 }
 
 .details {
@@ -96,6 +98,8 @@ ol>li {
     color: #fff;
     line-height: 27px;
     font-size: 18px;
+    animation-delay: 0.2s;
+    animation-name: fadeInLeft;
 }
 
 #hi {
@@ -115,7 +119,7 @@ ol>li {
 }
 
 .red {
-    color: rgb(255, 67, 67);
+    color: #ff4a57;
     font-weight: bold;
 }
 
@@ -145,7 +149,11 @@ ol>li {
     margin-top: 70px;
 }
 #colorfooter{
-    color: rgb(255, 67, 67);
+    color: #ff4a57;
+}
+#colorfooter:hover{
+    color: #fff;
+    cursor: pointer;
 }
 #footer{
     font-size: 16px;
@@ -182,11 +190,12 @@ a:link{
 a:visited{
     color: #fff;
 }
-a:hover{
+.ikonystopka:hover{
     color: #fff;
+    background-color: #ff4a57;
 }
 .servicesmain{
-    color: rgb(255, 67, 67);
+    color: #ff4a57;
     font-size: 13px;
     text-align: center;
     margin-left: auto;
@@ -233,7 +242,8 @@ a:hover{
     padding-top: 20px;
 }
 .element1{
-    color: rgb(255, 67, 67);
+    color: #ff4a57;
+    margin-left: 45px;
 
 }
 .element2{
@@ -252,7 +262,20 @@ a:hover{
 }
 .redicone{
     font-size: 45px;
-    margin-top: 30px;
-   
-    color: rgb(255, 67, 67);
+    margin-top: 30px;  
+    color: #ff4a57;
+    border: 0;
+}
+
+.znacznik1:hover{
+    color: #ff4a57; 
+    cursor: pointer;
+
+}
+.box:hover{
+    background-color: #ff4a57;
+}
+
+.box:hover .redicone {
+    color: white;
 }
