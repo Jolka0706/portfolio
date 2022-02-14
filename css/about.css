@@ -144,6 +144,7 @@ ol>li {
 }
 #text{
     margin-top: 70px;
+    line-height: 30px;
 }
 #ikony{
     margin-top: 70px;
@@ -295,3 +296,33 @@ a:visited{
     transform: rotateY(360deg);
     /* transform: translateX(100px); */
 }
+
+@media (min-width: px) {
+
+    /* style dla 1050px */
+    
+    }
+    
+    @media (max-width: px) and (min-width: px) {
+    
+    /* style dla 950px */
+    
+    }
+    
+    @media (max-width: px) and (min-width: px) {
+    
+    /* style dla 750px */
+    
+    }
+    
+    @media (max-width: px) and (min-width: px) {
+    
+    /* style dla 450px */
+    
+    }
+    
+    @media (max-width: px) {
+    
+    /* style dla 300px */
+    
+    }
