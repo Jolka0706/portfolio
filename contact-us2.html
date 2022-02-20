@@ -7,30 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="css/contact-us2.css" type="text/css" />
-
+    <link rel="stylesheet" href="font-awesome/css/all.css" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+    <div id="nav">
+        <div id="logo">
+            <img src="images/logo.png" alt="napis">
+        </div>
+
+        <div id="menu">
+            <div class="pasek"><a href="home.html">Home</a></div>
+            <div class="pasek"><a href="about.html">About</a></div>
+            <div class="pasek"><a href="contact-us.html">Contact</a></div>
+        </div>
+    </div>
     <div id="wrapper">
         <h2>HAVE ANY QUERY?</h2>
         <h1>Contact Me</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and<br>
+        <p class="text">Lorem Ipsum is simply dummy text of the printing and<br>
             typesetting industry. Lorem Ipsum standard dummy<br>
             text.</p>
-        <div class="contact">
-            <div class="info">
 
-                <p><span>Locate us</span><br>King Street, Melbourne <br>Victoria</p>
+        <div class="contact">
+
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <div class="info">
+                    <p><span>Locate us</span><br>King Street, Melbourne Victoria</p>
+                </div>
             </div>
-            <div class="info">
-                <p><span>Give us a call</span><br>Office: +01-2345-6789</p>
+
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <div class="info">
+                    <p><span>Give us a call</span><br>Office: +01-2345-6789</p>
+                </div>
             </div>
-            <div class="info">
-                <p><span>Get in online</span><br>contact@example.com</p>
+
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <div class="info">
+                    <p><span>Get in online</span><br>contact@example.com</p>
+                </div>
             </div>
         </div>
     </div>
 
+    <form>
+        <div class="row-form" data-aos="fade-up" data-aos-duration="3000">
+            <input class="row" type="text" placeholder="Your name">
+            <input class="row" type="text" placeholder="Your Email">
+        </div>
+        <div class="col-form" data-aos="fade-up" data-aos-duration="3000">
+            <input class="col" type="text" placeholder="Your Subject">
+            <textarea class="coli" type="text" placeholder="Your Message"></textarea>
+        </div>
+        <input class="przycisk" data-aos="fade-up" data-aos-duration="3000" type="submit" value="Send Message">
+    </form>
+    <footer>
+        <div class="amike"><img src="images/logo.png" alt="logo"></div>
+        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci-
+            didunt<br>
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- reitation<br>
+            ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        <div class="ikony">
+            <div class="ikona"><i class="fab fa-facebook-f"></i></div>
+            <div class="ikona"><i class="fab fa-twitter"></i></div>
+            <div class="ikona"><i class="fab fa-pinterest"></i></div>
+            <div class="ikona"><i class="fab fa-behance"></i></div>
+        </div>
+        <div class="copy">Copyright &copy; 2020 <span class="styl"> Ami.Ke </span>
+            All
+            Rights
+            Reserved by
+            ThemeBing.</div>
+    </footer>
+
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
