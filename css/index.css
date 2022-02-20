@@ -2,6 +2,7 @@ body {
     background-color: #23263a;
     margin: 0 !important;
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 
 #conteiner {
@@ -45,6 +46,7 @@ body {
 
 .pasek {
     margin-right: 30px;
+    font-size: 20px;
 }
 
 img {
@@ -74,6 +76,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .icon:hover {
@@ -291,12 +294,11 @@ button:hover {
     justify-content: flex-start;
     opacity: 0;
     transition: opacity 0.25s;
+
 }
 
 .overlayThree:hover {
     opacity: 1;
-
-
 }
 
 .overlayOne {
@@ -375,13 +377,17 @@ button:hover {
 .title {
     padding-top: 10px;
     padding-left: 20px;
-    font-size: 15px;
+    font-size: 13px;
     color: white;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .word {
     font-size: 20px;
     font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
 }
 
 
