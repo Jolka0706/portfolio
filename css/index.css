@@ -248,10 +248,149 @@ button:hover {
     margin-right: 250px;
 }
 
-.photo {
+.photo img {
     display: flex;
     flex-direction: column;
-    margin-right: 8px;
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+
+}
+
+.photo {
+    position: relative;
+}
+
+.photoCenter {
+    position: relative;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imgThree {
+    width: 300px;
+    height: 605px;
+}
+
+.overlayThree {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 605px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlayThree:hover {
+    opacity: 1;
+
+
+}
+
+.overlayOne {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlayOne:hover {
+    opacity: 1;
+}
+
+.overlayTwo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlayTwo:hover {
+    opacity: 1;
+}
+
+.overlayFour {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlayFour:hover {
+    opacity: 1;
+
+}
+
+.overlayFive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlayFive:hover {
+    opacity: 1;
+}
+
+.title {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.word {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+/*.photos {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .imgOne {
@@ -285,7 +424,7 @@ button:hover {
     width: 300px;
     height: 300px;
     margin-right: 20px;
-}
+}*/
 
 
 
@@ -312,10 +451,20 @@ footer {
     text-align: center;
     color: #fff;
     font-size: 18px;
+    background-color: #23263a;
+    padding-top: 100px;
+}
+
+.amike img {
+    width: 200px;
+    height: 50px;
+    padding-bottom: 50px;
 }
 
 p.txt {
     margin: 0;
+    line-height: 30px;
+    text-align: center;
 }
 
 .ikony {
@@ -326,18 +475,23 @@ p.txt {
     flex-direction: row;
     margin-top: 90px;
     margin-bottom: 90px;
-    width: 240px;
+    width: 250px;
 
 }
 
 .ikona {
     border-radius: 50%;
     background-color: #1f2235;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     padding: 10px;
+    margin-right: 3px;
     text-align: center;
     transition: all 0.5s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .ikona:hover {
@@ -349,12 +503,16 @@ p.txt {
 
 .copy {
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: #1f2235;
     text-align: center;
-    font-size: 15px;
-    padding-top: 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 a:link {
     color: white;
@@ -379,6 +537,11 @@ a:hover {
     color: white;
 }
 
+/*.image-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .image-container .overlay {
     position: absolute;
     width: 100%;
@@ -395,4 +558,4 @@ a:hover {
 .image-container:hover .overlay {
     transform: scale(1);
     visibility: visible;
-}
+}*/
