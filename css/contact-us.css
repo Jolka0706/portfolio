@@ -22,20 +22,35 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+@media (max-width: 1550px) {
+    .menu{
+        width: 100%;
+    }
+    
+}
 .szerokosc1 {
     background-color: #1f2235;
     width: 1200px;
     height: 100px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;   
     font-size: 18px;
     letter-spacing: 1px;
     margin-left: auto;
     margin-right: auto;
 }
-
+@media (max-width: 1250px) {
+    .szerokosc1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+        
+        
+    }
+    
+}
 ol {
     color: white;
     list-style-type: none;
@@ -50,11 +65,22 @@ ol>li {
     font-weight: bold;
     margin-left: 30px;
 }
-
+@media (max-width: 1250px) {
+    ol>li{
+        margin-left: 0 !important;
+        padding: 0;
+    }
+    
+}
 #logo {
     width: 130px;
 }
-
+@media (max-width: 1250px) {
+    #logo{
+        margin-top: 15px;
+    }
+    
+}
 a:link {
     color: #fff;
     text-decoration: none;
@@ -194,10 +220,24 @@ a:visited {
     margin-right: auto;
 
 }
+@media (max-width: 1250px) {
+    .szerokosc2 {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+}
 
 .container {
     display: flex;
     justify-content: space-between;
+}
+@media (max-width: 1250px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .inputicon {
@@ -208,6 +248,13 @@ a:visited {
     flex-direction: row;
     margin-top: 120px;
     color: #fff;
+}
+@media (max-width: 1250px) {
+    .inputicon {
+        width: 100%;
+        margin-top: 25px;
+       
+    }
 }
 
 .boldletter {
@@ -239,7 +286,12 @@ a:visited {
     justify-content: space-between;
 
 }
-
+@media (max-width: 1250px) {
+    .smallclass {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 .contactinput {
     display: flex;
     flex-direction: row;
@@ -251,7 +303,11 @@ a:visited {
     border: 0;
 
 }
-
+@media (max-width: 1250px) {
+    .contactinput {
+        width: 100%;
+    }
+}
 [placeholder="Your Name"],
 [placeholder="Your Email"],
 [placeholder="Your Subject"]{
@@ -303,7 +359,11 @@ a:visited {
     height: 70px;
     border: 0;
 }
-
+@media (max-width: 1250px) {
+    .poletext1 {
+        width: 100%;
+    }
+}
 .poletext2 {
     margin-top: 30px;
     background-color: #23263a;
@@ -314,7 +374,19 @@ a:visited {
     min-height: 180px;
     border: 0;
 }
-
+@media (max-width: 1250px) {
+    .poletext2 {
+    margin-top: 30px;
+    background-color: #23263a;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 180px;
+    min-height: 180px;
+    border: 0;
+    box-sizing: border-box;
+    }
+}
 .button {
 
     background-color: #ff4a57;
@@ -331,4 +403,29 @@ a:visited {
     cursor: pointer;
 
 }
-
+@media (max-width: 1250px) {
+    .buttton {
+        width: 190px;
+    }
+}
+.ikonystopka:first-child{
+    margin-left: 0;
+}
+@media (max-width: 1000px) {
+    .ikonystopka{
+        margin-left: 30px;
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 1000px) {
+    #text{
+       margin-left: 15px;
+       margin-right: 15px;
+    }
+}
+@media (max-width: 1000px) {
+    #logom{
+       width: 140px;
+    }
+}
