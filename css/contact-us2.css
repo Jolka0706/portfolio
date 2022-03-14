@@ -15,33 +15,40 @@ body {
     top: 0;
     color: white;
     position: fixed;
-
+    z-index: 100;
 
 }
 
 
 #logo {
-    margin-right: 450px;
     display: flex;
     align-items: center;
-
+    margin-left: 30px;
+    letter-spacing: 1px;
 }
 
 #menu {
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
     justify-content: space-between;
+    margin-top: 40px;*/
     margin-top: 40px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .pasek {
     margin-right: 30px;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .pasek a {
     transition: all 1s ease-in-out;
 }
+
 
 img {
     width: 90px;
@@ -67,6 +74,30 @@ a:hover {
 
 
 }
+
+.hamburger {
+    visibility: hidden;
+
+}
+
+
+.lista ol {
+    width: 500px;
+    position: absolute;
+    margin-top: 0;
+    margin-right: 60px;
+}
+
+ol>li {
+    background-color: #23263a;
+    position: relative;
+    z-index: 100;
+    padding-left: 30px;
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: left;
+}
+
 
 
 #wrapper {
@@ -321,4 +352,132 @@ a:hover {
 
 .styl:hover {
     color: white;
+}
+
+@media (min-width:530px) and (max-width:579px) {
+
+    .hamburger {
+        width: 40px;
+        height: 35px;
+        border: 0;
+        border-top: 5px solid white;
+        background: transparent;
+        position: relative;
+        visibility: visible;
+
+    }
+
+    .hamburger::before,
+    .hamburger::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-top: 5px solid white;
+        transform: translateY(10px);
+    }
+
+    .hamburger::after {
+        transform: translateY(25px);
+    }
+
+
+
+    .lista ol {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        position: absolute;
+        right: -50px;
+        padding-top: 30px;
+
+    }
+
+
+    ol>li {
+        list-style: none;
+        margin: 0;
+        height: 120px;
+        display: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 480px;
+
+
+    }
+
+    .hamburger>.lista.visible>ol>li {
+        display: block;
+        visibility: visible;
+    }
+
+
+    .pasek {
+        visibility: hidden;
+    }
+
+    p.text {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+        margin-left: 143px;
+
+    }
+
+    .info {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 50px;
+        width: 460px;
+
+    }
+
+
+    .row-form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 33px;
+        margin-right: 60px;
+
+    }
+
+    input.row {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .col-form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 33px;
+        margin-right: 60px;
+    }
+
+    input.col {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .coli {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .przycisk {
+        margin-left: 30px;
+    }
 }

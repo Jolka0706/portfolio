@@ -7,6 +7,7 @@
     <meta name="portfolio" content="portfolio, about, me," />
     <meta http-equiv="X-UA-compatible" content="IE-edge.chrome=1" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
+
     <link rel="stylesheet" href="font-awesome/css/all.css" type="text/css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -14,7 +15,6 @@
 <body>
     <div id="conteiner">
         <div id="nav">
-            <!-- <div class="pusty"></div>-->
             <div id="logo">
                 <img class="logo" src="images/logo.png" alt="napis">
             </div>
@@ -23,12 +23,20 @@
                 <div class="pasek"><a href="home.html">Home</a></div>
                 <div class="pasek"><a href="about.html">About</a></div>
                 <div class="pasek"><a href="contact-us.html">Contact</a></div>
+
+                <!--<ul id="menu">
+                <li class="pasek"><a href="home.html">Home</a></li>
+                <li class="pasek"><a href="about.html">About</a></li>
+                <li class="pasek"><a href="contact-us.html">Contact</a></li>
+                </ul>-->
                 <button class="hamburger">
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact-us.html">Contact</a></li>
-                    </ul>
+                    <div class="lista">
+                        <ol>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ol>
+                    </div>
                 </button>
             </div>
         </div>
@@ -45,6 +53,7 @@
                 <h1>I am Jonathan Doe</h1>
                 <p>i,m Jonathan, professional web developer with<br>
                     long time experience in this field</p>
+
                 <div class="przyciski">
                     <input type="button" value="My Portfolio">
                     <button class="yt"><i class="fas fa-play"></i></button>
@@ -154,4 +163,5 @@
     <script>
         AOS.init();
     </script>
+    <script src="js/home.js"></script>
 </body>
